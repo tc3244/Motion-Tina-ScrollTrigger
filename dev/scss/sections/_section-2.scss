@@ -4,13 +4,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../img/hero.jpg");
+    background-image: url("../img/3.jpg");
     background-size: cover;
+    opacity: 95%;
 
     #box{
         height: 100px;
         width: 100px;
-        background-color: var(--red);
+        background-color: var(--brown);
         border: 3px solid var(--white);
     }
 }
