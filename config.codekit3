@@ -146,77 +146,37 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/demo.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/demo.html",
-      "oF" : 0
-    },
     "\/dev\/content\/demo.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/demo.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
-    "\/dev\/content\/hero-2.html" : {
+    "\/dev\/content\/garden.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
+      "oA" : 1,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/hero-2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hero.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/hero.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/hero.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hiking.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/hiking.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hiking.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hiking.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/footer.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 3
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -234,14 +194,6 @@
       "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
-    "\/dev\/global\/header.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/global\/header.html",
-      "oF" : 0
-    },
     "\/dev\/global\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -256,14 +208,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
-      "oF" : 0
-    },
-    "\/dev\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
@@ -450,6 +394,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_garden.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_garden.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_hero-2.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -479,45 +438,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/sections\/_hiking.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_hiking.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/dev\/scss\/styles-min.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
-    "\/dev\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,

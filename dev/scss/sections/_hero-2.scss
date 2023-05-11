@@ -19,10 +19,17 @@
         color: var(--white);
 
         h1{
-            font-family: 'Righteous', cursive;
+            font-family: 'Poppins';
             font-weight: 400;
-            font-size: rem-calc(80);
+            font-size: rem-calc(40);
         }
+
+        p{
+            font-family: 'Poppins';
+            font-weight: 200;
+            font-size: rem-calc(20);
+        }
+
     }
 
     #bg-img{

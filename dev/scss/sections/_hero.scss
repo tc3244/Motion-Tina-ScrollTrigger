@@ -21,9 +21,8 @@
         text-align: center;
 
         h1{
-            font-family: 'Righteous', cursive;
+            font-family: 'Poppins';
             color: var(--white);
-            // color: rgba(var(--whiteO),0.5);
             font-size: rem-calc(40);
             font-weight: 400;
             margin: 0;
@@ -32,16 +31,25 @@
             @include md{
                 font-size: rem-calc(60);
             }
+        }
 
-            span{
-                color: var(--white);
+        p{
+            font-family: 'Poppins';
+            color: var(--white);
+            font-size: rem-calc(20);
+            font-weight: 200;
+            padding: 3%;
+
+            @include md{
+                font-size: rem-calc(30);
             }
+
         }
 
         button{
             border: none;
-            background-color: var(--red);
-            color: var(--white);
+            background-color: var(--orange);
+            color: var(--blacks);
             padding: 20px 30px;
             border-radius: 8px;
             font-size: rem-calc(20);
@@ -55,6 +63,12 @@
             i{
                 margin-left: 12px;
             }
+
+            &:hover{
+                cursor: pointer;
+                background-color: var(--white);
+            }
+
         }
     }
 }

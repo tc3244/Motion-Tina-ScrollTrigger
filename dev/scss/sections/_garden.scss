@@ -1,7 +1,8 @@
-#hiking{
+#garden{
+    background-color: black;
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". hiking .";
+    grid-template-areas: ". garden .";
     margin: 24px 0;
 
     @include md{
@@ -19,7 +20,7 @@
     }
 
     >div{
-        grid-area: hiking;
+        grid-area: garden;
 
         @include md{
             display: grid;
@@ -30,15 +31,20 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 16px;
+            padding: 60px;
 
             h1{
-                font-weight: 300;
-                font-size: rem-calc(50);
+                font-weight: 400;
+                font-size: rem-calc(40);
+                color: var(--white);
+                text-align: center;
             }
 
             p{
-                
+                font-weight: 200;
+                font-size: rem-calc(20);
+                color: var(--white);
+                text-align: center;
             }
         }
 
@@ -51,7 +57,7 @@
             }
 
             div{
-                background-image: url("../img/hiking/hiking.jpg");
+                background-image: url("../img/garden/garden.jpg");
                 background-size: cover;
                 background-position: center;
                 height: 100%;
