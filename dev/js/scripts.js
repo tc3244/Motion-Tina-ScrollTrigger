@@ -3,7 +3,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.set("#bg-img",{clipPath:"inset(25% 25%)"});
+
+// Init
+gsap.set("#hero h1 span",{alpha:0.25});
+//gsap.set("#bg-img",{clipPath:"inset(25% 25%)"});
 
 //Timeline Controls
 //tl.pause();
