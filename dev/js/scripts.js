@@ -68,14 +68,14 @@ function hero2Animation(){
     let tl = gsap.timeline({
         scrollTrigger:{
             trigger: "#hero-2",
-            start:"top 70%",
+            start:"top 90%",
             end:"top 40%",
             scrub:true,
             markers:false
         }});
-    tl.from("#bg-img",{duration:1, clipPath:"inset(0 50%)"}, "herotwo")
-    .to("#hero-2 h1",{duration:1.5, ease:"bounce.in", scale:1.2}, "herotwo")
-    .to("#hero-2 p",{duration:1.5, ease:"bounce.in", scale:1.2}, "herotwo")
+    tl.from("#bg-img",{duration:10, x:"-90%", alpha:0}, "herotwo")
+    .from("#hero-2 h1",{duration:15, y:"-=300", alpha:0, ease:"bounce.out"}, "herotwo")
+    .from("#hero-2 p",{duration:15, y:"-=300", alpha:0,ease:"bounce.out"},"herotwo")
 
     ;
 
